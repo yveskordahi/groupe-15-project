@@ -3,20 +3,24 @@ $(document).ready(function() {
 
   $(".next").click(function() {
     if (counter == 1) {
-      $(".product1").fadeOut(500);
-      $(".product2").fadeIn(500);
-      $(".h1").animate({ top: "-30%" });
-      $(".h2").animate({ top: "50%" });
+      // $(".product1").fadeOut(300);
+      // $(".product2").fadeIn(300);
+      // $(".h1").animate({ top: "-30%" });
+      // $(".h2").animate({ top: "50%" });
+      $(".h1").fadeOut(300);//animate({ top: "50%" });
+      $(".h2").fadeIn(300);
+      $(".addToCart").fadeIn(300);//animate({ top: "130%" });
       counter = 2;
     }
   });
 
   $(".pre").click(function() {
     if (counter == 2) {
-      $(".product2").fadeOut(500);
-      $(".product1").fadeIn(500);
-      $(".h1").animate({ top: "50%" });
-      $(".h2").animate({ top: "130%" });
+      // $(".product2").fadeOut(500);
+      // $(".product1").fadeIn(500);
+       $(".h1").fadeIn(300);//animate({ top: "50%" });
+       $(".h2").fadeOut(300);
+       $(".addToCart").fadeOut(300);//animate({ top: "130%" });
       counter = 1;
     }
   });
