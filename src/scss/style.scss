@@ -134,6 +134,12 @@ html {
 
 // Ipad
 
+@media screen and (min-width: 800px) {
+  .landing-page--productImg--mobile {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 800px) {
 
   .background-img {
@@ -143,23 +149,38 @@ html {
       background-size: cover;
   }
   
+  .landing-page--productImg--mobile {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+  .mask-img--mobile {
+    width: 50%;
+  }
+
   .icon--div1 {
       width: 75%;
       text-align: center;
       margin-top: 2%;
       margin-bottom: 5%;
   }
-}
-  
-  // Iphone
-  
-  @media screen and (max-width: 600px) {
-  
+
+  .landing-page--productImg {
+    display: none;
+  }
+
+  .landing-page--description {
+    width: 90%;
+    margin-left: 5%;
+    padding-left: 8%;
+  }
+
   .landing-page-home {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100%;
+      height: 87%;
       width: 100%;
       flex-direction: column;
       align-items: center;
@@ -170,28 +191,21 @@ html {
   }
   
   .section--icon {
-      display: flex;
-      width: 100%;
-      height: 100%;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 15%;
-  }
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
   
   .icon--div1 {
-      width: 100%;
-      text-align: center;
-      margin-top: 5%;
-      margin-bottom: 5%;
-  }
-  
-  .icon--div1 {
-      width: 100%;
-      text-align: center;
-      margin-top: 2%;
-      margin-bottom: 5%;
-  }
+    width: 70%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
   
   .icon-warm {
       margin-right: 7%;
@@ -201,3 +215,39 @@ html {
       margin-left: 3%;
   }
 }
+
+@media screen and (max-width: 600px) {
+
+  .section--icon {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 51%;
+}
+
+  .icon--div1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+}
+
+
+@media screen and (max-width: 380px) {
+
+  .section--icon {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 58%;
+  }
+}
+
