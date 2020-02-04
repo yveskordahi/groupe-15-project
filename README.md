@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Parcel boilerplate
 
 Minimal boilerplate for parcel powered project
@@ -17,3 +18,18 @@ Open `localhost:1234`
 ```npm run build```
 
 Serve the `dist` folder.
+=======
+# groupe-15-project
+
+Groupe 15 :
+ 
+ Creating a website based on the landing page style.
+ 
+ Pejic Andrija
+ Kordahi Yves-charbeli
+ TONG Xing
+ Painnot Alex
+ Valentin Sebastien
+ 
+ Netlify: https://wimask.netlify.com/
+>>>>>>> febcff591a11de4401271a5d4122d6babe7178ce
