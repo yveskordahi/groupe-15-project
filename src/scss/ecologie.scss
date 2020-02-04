@@ -1,0 +1,85 @@
+@media (min-width: 300px) {
+  body {
+    background-color: #ededed;
+    background-image: url("img/fond\ eco\ 2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    background-position: -64px 0;
+    background-attachment: fixed;
+  }
+  .head {
+    width: 156px;
+    height: 156px;
+    margin-left: 116px;
+  }
+  .head img {
+    width: 100%;
+    height: auto;
+    animation: example 12s linear 0s infinite;
+  }
+  @keyframes example {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .masque {
+    width: 78%;
+    height: 53%;
+    margin-left: 28px;
+    margin-top: 40px;
+  }
+  .masque img {
+    width: 100%;
+    height: auto;
+  }
+  .text {
+    color: black;
+    position: absolute;
+    margin-top: -107px;
+  }
+  .text1 {
+    color: red;
+  }
+}
+@media (min-width: 1920px) {
+  .head {
+    width: 436px;
+    height: 396px;
+    margin-left: 43%;
+  }
+  .head img {
+    animation: example 12s linear 0s infinite;
+  }
+  @keyframes example {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .masque {
+    width: 35%;
+    height: 56%;
+    margin-left: 29%;
+    margin-top: 40px;
+  }
+  .text {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 18%;
+    bottom: 0%;
+  }
+  .text1 {
+    color: black;
+    font-size: 72px;
+    text-align: center;
+  }
+}
