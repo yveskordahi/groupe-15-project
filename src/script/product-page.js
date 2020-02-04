@@ -1,10 +1,19 @@
 $(document).ready(function() {
   counter = 2;
 
+  let h1 = document.querySelector(".tape");
+  let input = document.querySelector("input");
+  let blanc = document.getElementById("blanc");
+
+  input.addEventListener("input", function() {
+    h1.innerHTML = input.value;
+  });
+
   $(".colorMask--variant-black").click(function() {
     if (counter == 1) {
       $(".row--maskImg-black").css("opacity", "1");
       $(".row--maskImg-white").css("opacity", "0");
+      h1.style.color = "white";
       counter = 2;
     }
   });
@@ -13,6 +22,8 @@ $(document).ready(function() {
     if (counter == 2) {
       $(".row--maskImg-black").css("opacity", "0");
       $(".row--maskImg-white").css("opacity", "1");
+      h1.style.color = "black";
+
       counter = 1;
     }
   });
