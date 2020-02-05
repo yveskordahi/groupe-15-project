@@ -26,14 +26,14 @@
   </head>
   <body>
     <div class="background-img">
-      <div class="wrapper">
+      <div class="wrapper" id="acceuil">
         <header>
           <nav>
             <div class="menu-icon">
               <i class="fa fa-bars fa-2x"></i>
             </div>
             <div class="logo">
-              <a href="index.html"><img
+              <a href="#acceuil"><img
                 class="img-logo-wimask"
                 src="img/Logo-wimask-blue.png"
                 alt="Logo du site wimask"
@@ -42,13 +42,13 @@
             </div>
             <div class="menu">
               <ul>
-                <li><a class="menu--link" href="#">Accueil</a></li>
+                <li><a class="menu--link" href="#acceuil">Accueil</a></li>
                 <li><a class="menu--link" href="about.html">A propos</a></li>
                 <li>
                   <a class="menu--link" href="Product-page.html">Wimask</a>
                 </li>
-                <li><a class="menu--link" href="#">Contact</a></li>
-                <li><a class="menu--link" href="#">Connexion</a></li>
+                <li><a class="menu--link" href="#section-contact">Contact</a></li>
+                <li><a class="menu--link" href="connexion.html.html">Connexion</a></li>
               </ul>
             </div>
           </nav>
@@ -72,7 +72,7 @@
             N'hésitez
             <span class="description--text-span-color animated fadeIn slow"> plus.</span>
           </p>
-          <a href="#" class="button-découvrir animated fadeInUp slow">Découvrir</a>
+          <a href="#sectionpersonnalize" class="button-découvrir animated fadeInUp slow">Découvrir</a>
         </div>
         <div class="landing-page--productImg">
           <img class="mask-img animated pulse" src="img/3D-mask.png" alt="Mask d'hiver" />
@@ -165,8 +165,9 @@
           <p class="icon-text">Les masques WIMASK ne sont faits que de lin, permettant un total recyclage.</p>
 
       </div>
+      
     </section>
-
+<div id="sectionpersonnalize" class="sectionperso"></div>
     <div class="container">
       <div class="height-section-mannequin-mask">
       <div class="row">
@@ -206,7 +207,7 @@
           et de fait maison. 
  
          <br><br>
-          <a class="button-découvrir" href="Product-page.html">En savoir plus</a>
+          <a class="button-découvrir" href="ecologie.html">En savoir plus</a>
         </p>
                    
         </div>
@@ -214,7 +215,7 @@
     </div>
     </div>
 
-    <div class="contact-section">
+    <div class="contact-section" id="section-contact">
       <div class="inner-width">
         <h1>Nous contacter</h1>
         <input type="text" class="name" placeholder="Votre Nom">
@@ -224,5 +225,15 @@
       </div>
     </div>
     
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js">
+    </script>
+
   </body>
 </html>

@@ -21,3 +21,17 @@ $(window).on("scroll", function() {
     $(".menu--link").removeClass("blue");
   }
 });
+
+$(function() {
+	$('nav a[href^="#"]').click(function() {
+	var the_id = $(this).attr("href");
+	if (the_id === '#') {
+	return;
+	}
+	var posCible = $(the_id).offset().top - $("nav").height();
+	$('html, body').animate({
+	scrollTop:$(the_id).offset().top
+  }, 'slow');
+	return false;
+	});
+})
