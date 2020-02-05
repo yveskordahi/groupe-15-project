@@ -1,103 +1,266 @@
-body{
- font-family: 'Montserrat', arial;
- background-color: #EDEDED;
- margin-left: 35px;
+@media(max-width:600px){
+  body {
+    font-family: "Montserrat", arial;
+    background-color: #ededed;
+    margin-left: 35px;
 }
-h1{
- text-transform : uppercase;
- font-size: 32px;
- display: flex;
- justify-content: center;
+h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  color:#2d3035;
+  text-decoration:underline ;
+  text-decoration-color: rgb(62, 198, 247);
 }
-
-h2{
- text-transform : uppercase;
- font-size: 24px;
- display: flex;
- justify-content: center;
+h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  color:#2d3035;
+  margin-top: -18px;
+  text-decoration: underline;
+  text-decoration-color: rgb(62, 198, 247);
 }
-
-div{
- margin-top: 50px;
- width: 150px;
- height: 200px;
- display: flex;
- flex-wrap: wrap;
+.text {
+  margin-top: 50px;
+    width: 100%;
+    height: 393px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    color: #2d3035;
 }
-
-p{
- font-size: 16px;
+.logo{
+  width: 74px;
+    height: 61px;
+  position: absolute;
+  left: 19px;
+  top: 17px;
 }
-
-.bouton a{
- height: 20px;
- width: 450px;
- display: flex;
- justify-content: center;
- background-color: black;
- color: white;
- border: 20px solid black;
- border-radius: 25px 25px 25px 25px;
- text-decoration: none;
- text-transform : uppercase;
- font-size: 20px;
- margin-top: 500px;
+.logo img{
+  width: 100%;
+  height: auto;
 }
-
+.btnaround{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+}
 .bouton{
- display: flex;
- justify-content: center;
-}
-@media (min-width : 360px){
- body{
-  font-family: 'Montserrat', arial;
-  background-color: #EDEDED;
-  margin-left: 200px;
- }
 
-h1{
- text-transform : uppercase;
- font-size: 72px;
- display: flex;
- justify-content: center;
+    width: 131px;
+    height: 42px;
+    background-color: rgb(62, 198, 247);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #2d3035 1px solid;
 }
-
-h2{
- text-transform : uppercase;
- font-size: 32px;
- display: flex;
- justify-content: center;
-}
-
-div{
- margin-top: 50px;
- width: 1200px;
- height: 450px;
- display: flex;
- flex-wrap: wrap;
-}
-
-p{
- font-size: 32px;
-}
-
 .bouton a{
- height: 50px;
- width: 350px;
- display: flex;
- justify-content: center;
- background-color: black;
- color: white;
- border: 20px solid black;
- border-radius: 25px 25px 25px 25px;
- text-decoration: none;
- text-transform : uppercase;
- font-size: 50px;
- margin-top: 10px;
+  text-decoration: none;
+  font-weight:bold;
+  color:#2d3035 ;
+}
+.bouton:hover{
+  border: white 1px solid;
+
+}
+.bouton a:hover{
+  color:white;
 }
 
-.bouton{
- display: flex;
- justify-content: center;
 }
+@media (min-width:1366px){
+  body {
+    font-family: "Montserrat", arial;
+    background-color: #ededed;
+    margin-left: 35px;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 154px;
+  display: flex;
+  justify-content: center;
+  color:#2d3035;
+  text-decoration:underline ;
+  text-decoration-color: rgb(62, 198, 247);
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 119px;
+  display: flex;
+  justify-content: center;
+  color:#2d3035;
+  margin-top: -78px;
+  text-decoration: underline;
+  text-decoration-color: rgb(62, 198, 247);
+}
+.text {
+  margin-top: 183px;
+  width: 72%;
+  height: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  /* left: 76px; */
+  margin-left: 595px;
+}
+.text p{
+  color: #2d3035;
+  font-size: 100px;
+
+}
+.logo{
+  width: 460px;
+  height: 351px;
+  position: absolute;
+  left: 82px;
+    top: 50px;
+}
+.logo img{
+  width: 100%;
+  height: auto;
+}
+.btnaround{
+  width: 100%;
+  height: 203px;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.bouton{
+
+  width: 487px;
+  height: 175px;
+  background-color: rgb(62, 198, 247);
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #2d3035 4px solid;
+}
+.bouton a{
+  text-decoration: none;
+    font-weight: bold;
+    font-size: 64px;
+    color: #2d3035;
+}
+.bouton:hover{
+  border: white 4px solid;
+
+}
+.bouton a:hover{
+  color:white;
+}
+}
+
+
+
+
+
+
+/*
+h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  margin-top: 50px;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  font-size: 16px;
+}
+
+.bouton a {
+  height: 20px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border: 20px solid black;
+  border-radius: 25px 25px 25px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 500px;
+}
+
+.bouton {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 360px) {
+  body {
+    font-family: "Montserrat", arial;
+    background-color: #ededed;
+    margin-left: 200px;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+  }
+
+  div {
+    margin-top: 50px;
+    width: 1200px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  p {
+    font-size: 32px;
+  }
+
+  .bouton a {
+    height: 50px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border: 20px solid black;
+    border-radius: 25px 25px 25px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 10px;
+  }
+
+  .bouton {
+    display: flex;
+    justify-content: center;
+  }
 }
