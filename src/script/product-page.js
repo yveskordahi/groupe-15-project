@@ -35,7 +35,6 @@ $(document).ready(function() {
       $(".row--maskImg-black").css("opacity", "0");
       $(".row--maskImg-white").css("opacity", "1");
       h1.style.color = "black";
-
       counter = 1;
     }
   });

@@ -26,11 +26,23 @@ body {
   font-weight: 700;
   color: #2d3035;
   margin: 0;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   text-align: center;
 }
-.team h1:hover {
-  text-decoration: underline;
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: open sans;
+  font-weight: 700;
+  color:#2d3035;
+  margin: 0;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .team .card {
