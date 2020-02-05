@@ -14,4 +14,10 @@ $(window).on("scroll", function() {
   } else {
     $("nav").removeClass("black");
   }
+
+  if ($(window).scrollTop()) {
+    $(".menu--link").addClass("blue");
+  } else {
+    $(".menu--link").removeClass("blue");
+  }
 });
