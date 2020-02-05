@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap");
+
 .img-mask-black-white {
   width: 60%;
 }
@@ -9,7 +11,31 @@
 }
 
 .height-section-mannequin-mask {
-  height: 65%;
+  height: calc(100vh - 100px);
+}
+
+.img-mask-black-white--2 {
+  width: 90%;
+}
+
+.mannequin--text {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.img-ecology {
+  width: 80%;
+}
+
+.span-mannequin-title {
+  color: #545454;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 20%;
+  font-family: "Roboto", sans-serif;
+  line-height: 50px;
 }
 
 @media (min-width: 576px) {
@@ -17,6 +43,7 @@
     display: flex;
     justify-content: center;
     flex: 0 0 50%;
+    align-items: center;
     max-width: 50%;
   }
 }
@@ -25,5 +52,19 @@
   .img-mask-black-white {
     width: 60%;
     margin-bottom: 6%;
+    margin-top: 10%;
+  }
+
+  .col-sm-6 {
+    text-align: center;
+  }
+
+  .img-mask-black-white--2 {
+    margin-top: 25%;
+  }
+
+  .img-ecology {
+    width: 80%;
+    margin-top: 50%;
   }
 }
