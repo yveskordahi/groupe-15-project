@@ -101,6 +101,12 @@ html {
   height: 80%;
   justify-content: center;
   margin-top: 4%;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.section--icon.hidden {
+  opacity: 0;
 }
 
 .icon--div1 {
@@ -132,6 +138,33 @@ html {
   opacity: 0.75;
   padding-right: 10%;
   padding-left: 10%;
+}
+
+.sectionperso {
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.sectionperso.hidden {
+  opacity: 0;
+}
+
+.img-ecology {
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.img-ecology.hidden {
+  opacity: 0;
+}
+
+.mannequin--text {
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.mannequin--text.hidden {
+  opacity: 0;
 }
 
 // Ipad

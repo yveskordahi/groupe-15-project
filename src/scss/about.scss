@@ -34,6 +34,13 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.text-eco--2 {
+  width: 70%;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
 @media (max-width: 600px) {
   .bouton {
     box-shadow: 0px 6px 14px -7px #276873;
@@ -63,5 +70,11 @@
 
   .container {
     margin-top: 20%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .text-eco--2 {
+    width: 45%;
   }
 }

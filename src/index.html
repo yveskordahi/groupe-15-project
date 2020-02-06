@@ -82,7 +82,7 @@
       </div>
     </div>
 
-    <section id="waypoint-icons" class="section--icon">
+    <section class="section--icon hidden">
       <div class="icon--div1">
 
         <svg class="icon-warm" width="83" height="83" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -169,7 +169,7 @@
       </div>
       
     </section>
-<div id="sectionpersonnalize" class="sectionperso"></div>
+<div id="sectionpersonnalize" class="sectionperso hidden">
     <div class="container">
       <div class="height-section-mannequin-mask">
       <div class="row">
@@ -186,21 +186,22 @@
           Personnalisez le votre. <br><br>
           <a class="button-découvrir" href="Product-page.html">Personnaliser</a>
         </p>
-                    
+      </div>  
         </div>
       </div>
     </div>
     </div>
 
+    
     <div class="container">
       <div class="height-section-mannequin-mask">
       <div class="row">
         <div class="col-sm-6">
-          <img class="img-ecology" src="img/ecology-globe-icon.png" alt="image des mask noir et blanc">
+          <img class="img-ecology hidden" src="img/ecology-globe-icon.png" alt="image des mask noir et blanc">
         </div>
         <div class="col-sm-6">
 
-          <p class="mannequin--text">
+          <p class="mannequin--text hidden">
          <span class="span-mannequin-title">Be Eco</span>  <br>
          Notre produit est issu d’une grande culture de lin.  <br>
          C’est une production 100% française nos producteurs proviennent <br> du département de la Seine-Maritime,  
@@ -211,11 +212,13 @@
          <br><br>
           <a class="button-découvrir" href="ecologie.html">En savoir plus</a>
         </p>
-                   
+        <div class="section-eco-hide hidden">
+      </div>         
         </div>
       </div>
     </div>
     </div>
+  </div>
 
     <div class="contact-section" id="section-contact">
       <div class="inner-width">
@@ -264,5 +267,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js">
     </script>
 
+    <script src="script/scroll-appear.js"></script>
   </body>
 </html>
