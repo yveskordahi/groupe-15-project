@@ -23,28 +23,35 @@ $(window).on("scroll", function() {
 });
 
 $(function() {
-	$('nav a[href^="#"]').click(function() {
-	var the_id = $(this).attr("href");
-	if (the_id === '#') {
-	return;
-	}
-	var posCible = $(the_id).offset().top - $("nav").height();
-	$('html, body').animate({
-	scrollTop:$(the_id).offset().top
-  }, 'slow');
-	return false;
-  });
-  
-  $('.button-découvrir[href^="#"]').click(function() {
+  $('nav a[href^="#"]').click(function() {
     var the_id = $(this).attr("href");
-    if (the_id === '#') {
-    return;
+    if (the_id === "#") {
+      return;
     }
     var posCible = $(the_id).offset().top - $("nav").height();
-    $('html, body').animate({
-    scrollTop:$(the_id).offset().top
-    }, 'slow');
+    $("html, body").animate(
+      {
+        scrollTop: $(the_id).offset().top
+      },
+      "slow"
+    );
     return false;
-    });
-})
+  });
 
+  $('.button-découvrir[href^="#"]').click(function() {
+    var the_id = $(this).attr("href");
+    if (the_id === "#") {
+      return;
+    }
+    var posCible = $(the_id).offset().top - $("nav").height();
+    $("html, body").animate(
+      {
+        scrollTop: $(the_id).offset().top
+      },
+      "slow"
+    );
+    return false;
+  });
+});
+
+// waypoint
