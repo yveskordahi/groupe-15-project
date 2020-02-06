@@ -211,10 +211,16 @@ html {
 
   .icon-warm {
     margin-right: 7%;
+    width: 16%;
+  }
+
+  .icon--bonnet {
+    width: 16%;
   }
 
   .icon-eco {
     margin-left: 3%;
+    width: 16%;
   }
 }
 
@@ -260,7 +266,6 @@ html {
   .section--icon {
     display: block;
     width: 100%;
-    // height: 150%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
