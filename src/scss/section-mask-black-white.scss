@@ -68,3 +68,13 @@
     margin-top: 55%;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .section--icon {
+    height: 60%;
+  }
+
+  .height-section-mannequin-mask {
+    height: calc(82vh - 100px);
+  }
+}
