@@ -16,9 +16,14 @@ $(document).ready(function() {
   let h1 = document.querySelector(".tape");
   let input = document.querySelector("input");
   let blanc = document.getElementById("blanc");
+  let inputDesktop = document.getElementById("input-desktop");
 
   input.addEventListener("input", function() {
     h1.innerHTML = input.value;
+  });
+
+  inputDesktop.addEventListener("input", function() {
+    h1.innerHTML = inputDesktop.value;
   });
 
   $(".colorMask--variant-black").click(function() {
@@ -52,7 +57,7 @@ $(document).ready(function() {
   });
 
   $(".mask-black-product1 .color-4").click(function() {
-    $(".row--maskImg-black").attr("src",blackMaskGreen);
+    $(".row--maskImg-black").attr("src", blackMaskGreen);
   });
 
   $(".mask-black-product1 .color-5").click(function() {
