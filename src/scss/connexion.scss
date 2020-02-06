@@ -6,7 +6,7 @@ body {
   background-size: cover;
 }
 .login-container {
-  height: 100vh;
+  height: 72vh;
   width: 100%;
   margin-top: 2%;
 }
@@ -54,4 +54,9 @@ body {
 }
 .btn-custom:focus {
   box-shadow: 0 0 0 0.2rem rgba(61, 113, 190, 0.25);
+}
+@media screen and (max-width: 800px) {
+  .login-container {
+    margin-top: 0;
+  }
 }

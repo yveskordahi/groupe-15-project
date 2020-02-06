@@ -1,56 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700&display=swap");
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #ededed;
-}
-
-a {
-  list-style: none;
-  text-decoration: none;
-}
-
-header {
-  width: 100%;
-  height: 100px;
-}
-
-h2 {
-  text-transform: uppercase;
-  font-size: 40px;
-  display: flex;
-  justify-content: center;
-  color: #2d3035;
-  margin-top: 3%;
-  letter-spacing: 7px;
-  font-family: "Roboto", sans-serif;
-}
-
-.text {
-  margin-top: 50px;
-  width: 68%;
-  height: 51%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap-reverse;
-  margin-left: 16%;
-}
-
-.text p {
-  color: #2d3035;
-  font-size: 20px;
-}
-
-.btnaround {
-  width: 100%;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
-}
-
 .bouton {
   box-shadow: rgb(39, 104, 115) 0px 6px 14px -7px;
   background-color: rgb(62, 198, 247);
@@ -79,34 +28,6 @@ h2 {
 }
 
 @media (max-width: 600px) {
-  h2 {
-    text-transform: uppercase;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    color: #2d3035;
-    margin-top: 4%;
-  }
-  .text {
-    margin-top: 50px;
-    width: 75%;
-    height: 677px;
-    text-align: justify;
-    display: flex;
-    color: #2d3035;
-    font-family: "Roboto", sans-serif;
-  }
-  .text p {
-    color: #2d3035;
-    font-size: 20px;
-  }
-
-  .btnaround {
-    width: 100%;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-  }
   .bouton {
     box-shadow: 0px 6px 14px -7px #276873;
     background-color: #3ec6f7;
@@ -119,6 +40,7 @@ h2 {
     font-weight: bold;
     padding: 7px 25px;
     text-decoration: none;
+    margin-bottom: 8%;
   }
   .bouton:hover {
     color: white;
